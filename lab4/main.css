@@ -1,0 +1,118 @@
+h1 { 
+	font-style: italic;
+	color: grey; 
+}
+p { 
+	font-family: Times New Roman;
+	color: grey; 
+	line-height: 22px;
+	font-size: 18px;
+}
+h2 a{ 
+	color: red;
+	text-decoration: none;
+	font-size: 30px;
+	margin: 10px 0;
+}
+h2 a:hover{ 
+	color: grey;
+	text-decoration: none;
+}
+h3 a {
+	color: black;
+	text-decoration: none;
+	font-family: Times New Roman;
+}
+ul{
+	margin: 0;
+	padding: 10px;
+	margin-left: 70%;
+}
+ul li{
+	display: inline;
+	margin-right: 2px;
+}
+ul li a {
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+	}
+ul li a:hover {
+	color: red;
+}
+* {
+	padding: 0;
+	margin: 10px 10px;
+}
+.det a{
+	text-decoration: none;
+	color:red;
+}
+.det a:hover{
+	color: grey;
+}
+#footer a {
+	text-decoration: none;
+	color: red;
+}
+#footer a:hover {
+	text-decoration: none;
+	color: grey;
+}
+.info a {
+	color: grey;
+	border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.info a:hover {
+	color: red;
+	border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+.details {
+	width: 20%;
+	height: auto;
+	padding: 5px;
+	float: left;
+	border-right: 1px solid grey;
+}
+.body {
+	padding: 5px;
+	width: 100%;
+	height: auto;
+}
+.col {
+	width: 31%;
+	float: left;
+}
+#footer {
+	float: left;
+	width: 100%;
+	border-top: 1px solid grey;
+}
+.x {
+	clear: both;
+	border: 0.2px solid grey;
+}
+.post {
+	border-top: 1px solid grey;
+}
+
+@media screen and (max-width: 992px) {
+	.col {
+		width: 45%;
+	}
+	.details {
+		width: 100%;
+		border-right: 0px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.col {
+		width: 100%;
+	}
+	.details {
+		width: 100%;
+		border-right: 0px;
+	}
+}

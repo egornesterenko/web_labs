@@ -1,0 +1,28 @@
+body { 
+	background-color: #FFFAF0;
+}
+a {
+	text-decoration: none; 
+	color: green;
+}
+a:hover{
+	color:red;
+}
+ul.menu{
+	margin: 0;
+	padding: 0;
+}
+ul.menu li{
+	display: inline;
+	margin-right: 4px;
+	padding: 2px;
+	font-size: 30px;
+}
+div {
+	font-size: 24px;
+	font-family: Arial;
+}
+p {
+	font-size: 20px;
+	font-family: Times New Roman;
+}
